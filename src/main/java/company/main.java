@@ -15,8 +15,8 @@ public class main {
     public static void main(String[] args) throws IOException {
         //通过 mvn 命令复制依赖jar
         String path = "jdk-libs";
-        path = "Jars\\Project_RuoYi-4.7.1_test6bdc9dbe14125a33d89c1eae10544c81";
-        String resultFile = "ruoyi-public-class_tmp.txt";
+        path = "D:\\turn1tup\\program_java\\RuoYi-4.7.1_test\\ruoyi-src-jar";
+        String resultFile = "ruoyi-public-class_tmp2.txt";
 
         for (String jarFileName : getFiles(path)) {
             try {
